@@ -1,3 +1,13 @@
 @StripePaymentGateway.WebAPI_HostAddress = http://localhost:5233
 
+POST {{StripePaymentGateway.WebAPI_HostAddress}}/api/getpaymentlink
+Accept: application/json
+Content-Type: application/json
 
+###
+
+POST {{StripePaymentGateway.WebAPI_HostAddress}}/api/checkpaymentstatus
+Accept: application/json
+Content-Type: application/json
+
+###
